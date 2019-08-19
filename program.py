@@ -17,9 +17,9 @@ def remove_best(array_):
             continue
         else:
             array_.pop(i)
-            return array
-    array.pop(0)
-    return array
+            return array_
+    array_.pop(0)
+    return array_
 
 
 test_cases = int(input())
